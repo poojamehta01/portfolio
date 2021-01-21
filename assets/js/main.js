@@ -62,3 +62,14 @@ $(document).ready(function () {
     window.location.href = this.id + ".html";
   });
 });
+
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+   
+  .chart-levels li {
+    padding: 15px 10px 15px 0;
+  }
+}
